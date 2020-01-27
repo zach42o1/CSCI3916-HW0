@@ -1,0 +1,20 @@
+{
+  "name": "gbooks",
+  "version": "1.0.0",
+  "description": "Google Books",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github/zach42o1/week1.git"
+  },
+  "author": "Zach Bowers",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "minimist": "^1.2.0",
+    "ora": "^4.0.3"
+  }
+}
