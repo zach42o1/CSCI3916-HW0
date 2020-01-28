@@ -8,10 +8,20 @@ module.exports = async (phrase) => {
         }
     })
 
+    var jsonReturn = 
+    {
+    data:           results.data,
+    status:         results.status,
+    statusText:     results.statusText,
+    headers:        results.headers,
+    requestHeader:  results.config.headers
+    }
+
+
 
     
 
-    return JSON.stringify(results.data);
+    return JSON.stringify(jsonReturn);
 }
 
 /*  console.log(results.data);
