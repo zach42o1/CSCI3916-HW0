@@ -1,0 +1,15 @@
+KEY                     DESCRIPTION
+Expires                 Indicates a date and time the request is considered stale
+Date                    Header Containing Date and time the message was sent 
+Cache-Control           Header containing rules for caching in both request and response
+ETag    `               Identifies a specific resource version
+Vary                    Determines how to match future request headers to determine if the cached response can be used 
+Content-type            Resource media type 
+Content-encoding        encoding method applied to entire body
+X-Content-Type-Options  can be used to opt out of MIME type sniffing
+X-Frame-Options         used to avoid clickjacking attacks
+X-XSS-Protection        stops pages from loading when XSS attacks
+Server                  Contains information on how server handles requests
+Alt-Svc                 Custom Header
+Transfer-encoding       encoding used to transfer entity to the user 
+
